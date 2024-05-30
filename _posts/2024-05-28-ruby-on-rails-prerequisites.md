@@ -63,3 +63,18 @@ $ rails db:migrate VERSION=0
 
 - Write tests before refactoring code, focusing on testing error-prone code that’s especially likely to break.
 
+<script src="https://giscus.app/client.js"
+        data-repo="lukebewitched/lukebewitched.github.io"
+        data-repo-id="R_kgDOL_rctw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOL_rct84Cfsag"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

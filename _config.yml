@@ -120,8 +120,8 @@ comments:
     repo_id: R_kgDOL_rctw
     category: Announcements
     category_id: DIC_kwDOL_rct84Cfsag
-    mapping: title
-    strict: 1
+    mapping: pathname
+    strict: 0
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`

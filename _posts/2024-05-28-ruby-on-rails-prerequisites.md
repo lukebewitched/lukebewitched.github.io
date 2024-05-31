@@ -51,30 +51,16 @@ $ rails db:migrate VERSION=0
 > Test-driven development (TDD) is a valuable tool to have in your kit. Here are a set of guidelines on when we should test first (or test at all):
 {: .prompt-info}
 
-- When a test is especially short or simple compared to the application code it tests, lean toward writing the test first.
+- [x] When a test is especially short or simple compared to the application code it tests, lean toward writing the test first.
 
-- When the desired behavior isn’t yet crystal clear, lean toward writing the application code first, then write a test to codify the result.
+- [x] When the desired behavior isn’t yet crystal clear, lean toward writing the application code first, then write a test to codify the result.
 
-- Because security is a top priority, err on the side of writing tests of the security model first.
+- [x] Because security is a top priority, err on the side of writing tests of the security model first.
 
-- Whenever a bug is found, write a test to reproduce it and protect against regressions, then write the application code to fix it.
+- [x] Whenever a bug is found, write a test to reproduce it and protect against regressions, then write the application code to fix it.
 
-- Lean against writing tests for code (such as detailed HTML structure) likely to change in the future.
+- [x] Lean against writing tests for code (such as detailed HTML structure) likely to change in the future.
 
-- Write tests before refactoring code, focusing on testing error-prone code that’s especially likely to break.
+- [x] Write tests before refactoring code, focusing on testing error-prone code that’s especially likely to break.
 
-<script src="https://giscus.app/client.js"
-        data-repo="lukebewitched/lukebewitched.github.io"
-        data-repo-id="R_kgDOL_rctw"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOL_rct84Cfsag"
-        data-mapping="pathname"
-        data-strict="1"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
+{% include giscus.html %}
